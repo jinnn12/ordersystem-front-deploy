@@ -13,7 +13,7 @@
         </v-col>
 
         <v-col class="text-center">
-            <v-btn to:="'/'">0829한번바꿔본 shop</v-btn>
+            <v-btn to:="'/'">너 자동화 된 shop</v-btn>
         </v-col>
 
         <v-col class="d-flex justify-start">
