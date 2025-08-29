@@ -35,7 +35,7 @@ jobs:
         with: 
           aws-access-key-id: ${{secrets.AWS_ACCESS_KEY}}
           aws-secret-access-key: ${{secrets.AWS_SECRET_KEY}}
-          aws-region: "ap-north-east-2"
+          aws-region: "ap-northeast-2"
 
       - name: deploy to s3
         run: aws s3 cp ./dist s3://www.jinho2000.shop/ --recursive
