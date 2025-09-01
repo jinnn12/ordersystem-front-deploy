@@ -59,7 +59,7 @@ export default {
     async memberCreate() {
       try {
         const data= {name: this.name, email: this.email, password: this.password};
-        await axios.post(`${process.env.VUE_APP_API_BASE_URL}/create`, data);
+        await axios.post(`${process.env.VUE_APP_API_BASE_URL}/member/create`, data);
         this.$router.push("/"); // 회원가입 성공 후 메인 페이지로 이동
         alert("회원가입이 완료되었습니다.");
         // 에러가 터지는 경우 e 변수 안에 서버에서 주는 error 메세지가 담겨있다
